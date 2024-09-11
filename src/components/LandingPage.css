@@ -1,0 +1,43 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .landing-background {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .landing h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .landing p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .landing button:hover {
+    background-color: #45a049;
+  }
+  
